@@ -1,0 +1,30 @@
+@import url('./style.css');
+
+.table{
+    font-family: 'Roboto';
+    font-size: medium;
+}
+
+.table thead{
+    color: #dddddd;
+    font-weight: normal;
+}
+
+.table td, .table th{
+    border: none;
+}
+
+#notaSelec .dropdown-toggle{
+    text-decoration: none;
+    color: white;
+}
+
+#notaSelec .dropdown-menu{
+    background-color: #49b3e9;
+    min-width: 50px;
+    color: black;
+}
+
+#notaSelec ul .dropdown-item:hover{
+    background-color: #3da1d3;
+}
